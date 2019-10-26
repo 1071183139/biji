@@ -1,0 +1,4 @@
+2019-10-18 20:15:03,443 - root - ERROR - error message
+2019-10-18 20:15:03,443 - root - CRITICAL - critical message
+2019-10-18 20:15:59,968 - root - ERROR - error message
+2019-10-18 20:15:59,969 - root - CRITICAL - critical message

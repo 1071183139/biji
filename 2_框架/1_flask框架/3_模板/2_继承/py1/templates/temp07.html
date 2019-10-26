@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+    我是子页面<br/>
+    <p>super可以把父模板中这块区域的内容显示出来</p>
+    {{ super() }}
+
+{% endblock content %}

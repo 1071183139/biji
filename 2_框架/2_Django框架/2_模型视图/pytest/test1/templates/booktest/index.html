@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>Title</title>
+</head>
+<body>
+<a href="/create/">创建</a>
+<ul>
+{%for book in list%}
+<li>{{book.btitle}}--<a href="/delete{{book.id}}/">删除</a></li>
+{%endfor%}
+{#{%for book in list%}#}
+{#    <li>{{book.btitle}}--<a href="/delete{{book.id}}/">删除</a></li>#}
+{#    <li>{{ book.btitle }}</li>#}
+{#{%endfor%}#}
+{#{%for hero in list%}#}
+{#    <li>{{book.btitle}}--<a href="/delete{{book.id}}/">删除</a></li>#}
+{#    <li>{{ hero.hname }}</li>#}
+{#{%endfor%}#}
+</ul>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<html>
+<head>
+    <title>CSRF</title>
+</head>
+<body>
+<form method="post" action="/csrf2/">
+    {% csrf_token %}
+    <input type="hidden" name="title" value="100">
+    <input type="submit" name="提交">
+</form>
+</body>
+</html>

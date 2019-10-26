@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>图书列表</title>
+</head>
+<body>
+<h1>{{title}}</h1>
+{#{%for i in list%}#}
+{#{{i}}<br>#}
+{#{%endfor%}#}
+{%for book in booklist%}
+   <li>
+     {#输出图书名称，并设置超链接，链接地址是一个数字#}
+      <a href="{{book.id}}">{{book.btitle}}</a>
+    </li>
+{%endfor%}
+</body>
+</html>
